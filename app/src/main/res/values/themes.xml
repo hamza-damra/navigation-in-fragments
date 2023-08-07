@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Fragments" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:buttonStyle">@style/DefaultButton</item>
+    </style>
+
+    <style name="Theme.Fragments" parent="Base.Theme.Fragments" />
+
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+        <!-- Customize button attributes as needed -->
+        <!-- For example, to change the background color, you can use the following line -->
+        <!--<item name="android:background">#FF4081</item>-->
+    </style>
+</resources>
